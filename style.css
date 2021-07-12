@@ -1,9 +1,9 @@
 :root {
   --white: hsl(0, 0%, 100%, 0.75);
-  --lightGray: hsl(0, 0%, 95%);
+  --lightgray: hsl(0, 0%, 95%);
   --orange: hsl(31, 77%, 52%);
-  --lightTurquoise: hsl(184, 100%, 22%);
-  --darkTurquoise: hsl(179, 100%, 13%);
+  --lightturquoise: hsl(184, 100%, 22%);
+  --darkturquoise: hsl(179, 100%, 13%);
 
 }
 
@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--white);
-  background-color: var(--lightGray);
+  background-color: var(--lightgray);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,11 +48,11 @@ body {
 }
 
 .two {
-  background-color: var(--lightTurquoise);
+  background-color: var(--lightturquoise);
 }
 
 .three {
-  background-color: var(--darkTurquoise);
+  background-color: var(--darkturquoise);
   border-radius: 0 0 0.75rem 0.75rem;
 }
 
@@ -91,11 +91,11 @@ button {
 }
 
 .two button {
-  color: var(--lightTurquoise)
+  color: var(--lightturquoise)
 }
 
 .three button {
-  color: var(--darkTurquoise)
+  color: var(--darkturquoise)
 }
 
 button:hover {
