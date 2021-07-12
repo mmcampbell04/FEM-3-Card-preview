@@ -1,9 +1,4 @@
-/* Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
-
-/* buttons on hover - just a white border */
-
-* {
+html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
